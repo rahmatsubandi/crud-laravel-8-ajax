@@ -42,8 +42,8 @@ class EmployeController extends Controller
                     <td>' . $emp->post . '</td>
                     <td>' . $emp->phone . '</td>
                     <td>
-                        <a href="javascript:void(0)" id="' . $emp->id . '" class="text-info mx-1 editIcon" data-bs-toggle="modal" data-bs-target="#editEmployeModal"><i class="bi-pencil-square h4"></i></a>
-                        <a href="javascript:void(0)" id="' . $emp->id . '" class="text-danger mx-1 deleteIcon"><i class="bi-trash h4"></i></a>
+                        <a href="javascript:void(0)" id="' . $emp->id . '" class="btn btn-info btn-sm mx-1 text-light editIcon" data-bs-toggle="modal" data-bs-target="#editEmployeModal"><i class="bi-pencil-square"></i></a>
+                        <a href="javascript:void(0)" id="' . $emp->id . '" class="btn btn-danger btn-sm mx-1 deleteIcon"><i class="bi-trash"></i></a>
                     </td>
                 </tr>';
             }
